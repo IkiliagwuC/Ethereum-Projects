@@ -1,3 +1,3 @@
 # Ethereum-Projects
 
-collection of some beginner Ethereum projects in solidity
+collection of beginner Ethereum projects in solidity
