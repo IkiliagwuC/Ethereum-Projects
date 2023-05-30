@@ -38,7 +38,6 @@ contract Ballot {
             proposals.push(Proposal({name: proposalNames[i], voteCount: 0}));
         }
 
-
     }
 
     function giveRightToVote(address voter) public {
@@ -99,10 +98,8 @@ contract Ballot {
     // Calls winningProposal() function to get the index
     // of the winner contained in the proposals array and then
     // returns the name of the winner
-    function winnerName() external view returns (bytes32 winnerName_)
-    {
-    winnerName_ = proposals[winningProposal()].name;
-    }
+    function winnerName() external view returns (bytes32 winnerName_){
+        winnerName_ = proposals[winningProposal()].name;
     
-       
+    }    
 }
